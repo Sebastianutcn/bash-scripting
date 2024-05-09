@@ -10,6 +10,8 @@ sudo apt install ssmtp
 ```
 sudo apt install gedit
 ```
+- Go to Google Account -> Security -> Less secure app access -> Allow less secure apps (Turn on access)
+- 
 
 ### For hex.sh  
 - Instal `bc`
