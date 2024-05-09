@@ -6,11 +6,15 @@ A collection of basic Bash scripts for common tasks in Unix/Linux environments.
 ```
 sudo apt install ssmtp
 ```
-- Install `geddit`
+- Install `gedit`
 ```
 sudo apt install gedit
 ```
 - Go to Google Account -> Security -> Less secure app access -> Allow less secure apps (Turn on access)
+- Open the configuration file
+```
+gedit /etc/ssmtp/ssmtp.conf
+```
 - 
 
 ### For hex.sh  
