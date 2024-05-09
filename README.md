@@ -1,6 +1,7 @@
 # Bash scripting
 A collection of basic Bash scripts for common tasks in Unix/Linux environments.
 
+
 ### For sending email 
 - Instal `ssmtp`
 ```
@@ -36,11 +37,13 @@ Subject: <Subject>
 <Body>
 ```
 
+
 ### For hex.sh  
 - Instal `bc`
 ```
 sudo apt install bc
 ```
+
 
 ### For inotify.sh 
 - Instal `inotify-tools`
