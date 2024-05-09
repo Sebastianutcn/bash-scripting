@@ -23,6 +23,18 @@ AuthUser=<your gmail>
 AuthPass=<your password>
 UseSTARTTLS=yes
 ```
+- In terminal
+```
+./ssmtpEmail.sh
+```
+- Write email details
+```
+To: <destination gmail address>
+From: <source gmail address>
+Cc: <Cc>
+Subject: <Subject>
+<Body>
+```
 
 ### For hex.sh  
 - Instal `bc`
