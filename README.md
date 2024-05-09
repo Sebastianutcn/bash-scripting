@@ -17,10 +17,10 @@ sudo gedit /etc/ssmtp/ssmtp.conf
 ```
 - Inside `ssmtp.conf`
 ```
-root=babiciusebastian@yahoo.com
+root=<your gmail>
 mailhub=smtp.gmail.com:587
-AuthUser=babiciusebastian@gmail.com
-AuthPass=Utcn2001
+AuthUser=<your gmail>
+AuthPass=<your password>
 UseSTARTTLS=yes
 ```
 
