@@ -13,9 +13,16 @@ sudo apt install gedit
 - Go to Google Account -> Security -> Less secure app access -> Allow less secure apps (Turn on access)
 - Open the configuration file
 ```
-gedit /etc/ssmtp/ssmtp.conf
+sudo gedit /etc/ssmtp/ssmtp.conf
 ```
-- 
+- Inside `ssmtp.conf`
+```
+root=babiciusebastian@yahoo.com
+mailhub=smtp.gmail.com:587
+AuthUser=babiciusebastian@gmail.com
+AuthPass=Utcn2001
+UseSTARTTLS=yes
+```
 
 ### For hex.sh  
 - Instal `bc`
